@@ -181,6 +181,54 @@ header {
 .list:hover {
     border-bottom: 2px solid black;
 }
+.about_me {
+    background-image: url('../images/justa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.contain {
+    width: 65%;
+    left: 18%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head_one {
+    margin: 50px;
+    font-family: 'josefin_sansregular';
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.story_one {
+    font-family: 'josefin_sansregular';
+    font-size: 28px;
+    text-align: center;
+}
+.exhibi {
+    background-image: url('../images/section3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.head_two {
+    margin: 80px;
+    font-family: 'josefin_sansregular';
+    text-transform: uppercase;
+    font-size: 60px;
+    color: whitesmoke;
+}
+.story_two {
+    padding-top: 90px;
+    font-family: 'josefin_sansregular';
+    font-size: 40px;
+    text-align: left; 
+    color: whitesmoke;
+}
+
+
 @media (min-width: 460px) and (max-width: 1024px) {
     header {
         background-position: top center;
