@@ -42,99 +42,13 @@
     font-weight: normal;
     font-style: normal;
 }
-/* mobile */
-@media only screen and (max-width: 459px) {
-  .col-s-1 {
-    width: 8.3333%; }
-  .col-s-2 {
-    width: 16.6666%; }
-  .col-s-3 {
-    width: 25%; }
-  .col-s-4 {
-    width: 33.3333%; }
-  .col-s-5 {
-    width: 41.6666%; }
-  .col-s-6 {
-    width: 50%; }
-  .col-s-7 {
-    width: 58.3333%; }
-  .col-s-8 {
-    width: 66.6666%; }
-  .col-s-9 {
-    width: 75%; }
-  .col-s-10 {
-    width: 83.3333%; }
-  .col-s-11 {
-    width: 91.6666%; }
-  .col-s-12 {
-    width: 100%; } }
-
-/* tablets */
-@media only screen and (min-width: 460px) and (max-width: 999px) {
-  .col-m-1 {
-    width: 8.3333%; }
-  .col-m-2 {
-    width: 16.6666%; }
-  .col-m-3 {
-    width: 25%; }
-  .col-m-4 {
-    width: 33.3333%; }
-  .col-m-5 {
-    width: 41.6666%; }
-  .col-m-6 {
-    width: 50%; }
-  .col-m-7 {
-    width: 58.3333%; }
-  .col-m-8 {
-    width: 66.6666%; }
-  .col-m-9 {
-    width: 75%; }
-  .col-m-10 {
-    width: 83.3333%; }
-  .col-m-11 {
-    width: 91.6666%; }
-  .col-m-12 {
-    width: 100%; } }
-
-/* desktop */
-@media only screen and (min-width: 1000px) {
-  .col-l-1 {
-    width: 8.3333%; }
-  .col-l-2 {
-    width: 16.6666%; }
-  .col-l-3 {
-    width: 25%; }
-  .col-l-4 {
-    width: 33.3333%; }
-  .col-l-5 {
-    width: 41.6666%; }
-  .col-l-6 {
-    width: 50%; }
-  .col-l-7 {
-    width: 58.3333%; }
-  .col-l-8 {
-    width: 66.6666%; }
-  .col-l-9 {
-    width: 75%; }
-  .col-l-10 {
-    width: 83.3333%; }
-  .col-l-11 {
-    width: 91.6666%; }
-  .col-l-12 {
-    width: 100%; } }
-
-[class*='col-'] {
-    padding-right: 2%;
-    padding-left: 2%; }
-
-
 * {
     margin: 0;
     box-sizing: border-box;
 }
-body {
-/*    overflow-y: hidden;*/
-}
+
+/*1ST SECTION */
+
 header {
     background-image: url('../images/section1.jpg');
     background-size: cover;
@@ -181,10 +95,53 @@ header {
 .list:hover {
     border-bottom: 2px solid black;
 }
-.about_me {
-    background-image: url('../images/justa.jpg');
+
+/*2ND SECTION*/
+.exhibi {
+    background-image: url('../images/section3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head_two {
+    margin-bottom: 100px;
+    font-family: 'josefin_sansregular';
+    text-transform: uppercase;
+    font-size: 60px;
+    color: whitesmoke;
+}
+.big_box {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+}
+.box {
+    padding: 15px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.story_two {
+    font-family: 'josefin_sansregular';
+    font-size: 20px;
+    text-align: left; 
+    color: whitesmoke;
+    align-items: center;
+    padding: 10px;
+}
+
+/*3RD SECTION*/
+
+.about_me {
+    background-color: whitesmoke;
     height: 100vh;
 }
 .contain {
@@ -196,6 +153,24 @@ header {
     align-items: center;
     flex-direction: column;
 }
+.contain_two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.left {
+    width: 48%;
+    height: 50%;
+}
+.right {
+    width: 600px;
+    height: 720px;
+    background-image: url('../images/justa.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
 .head_one {
     margin: 50px;
     font-family: 'josefin_sansregular';
@@ -204,28 +179,48 @@ header {
 }
 .story_one {
     font-family: 'josefin_sansregular';
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
+    text-align: left;
 }
-.exhibi {
-    background-image: url('../images/section3.jpg');
+
+/*4TH SECTION*/
+.drawings {
+/*
+    background-image: url('../images/drawings.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+*/
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
 }
-.head_two {
-    margin: 80px;
-    font-family: 'josefin_sansregular';
-    text-transform: uppercase;
-    font-size: 60px;
-    color: whitesmoke;
+.draw_one {
+    width: 500px;
+    height: 720px;
+    background-image: url('../images/draw1.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
 }
-.story_two {
-    padding-top: 90px;
-    font-family: 'josefin_sansregular';
-    font-size: 40px;
-    text-align: left; 
-    color: whitesmoke;
+.draw_two  {
+    width: 500px;
+    height: 720px;
+    background-image: url('../images/draw2.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+.draw_three  {
+    width: 500px;
+    height: 720px;
+    background-image: url('../images/draw3.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
 }
 
 
