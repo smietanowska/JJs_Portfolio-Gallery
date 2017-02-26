@@ -186,12 +186,7 @@ header {
 
 /*4TH SECTION*/
 .drawings {
-/*
-    background-image: url('../images/drawings.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-*/
-    height: 120vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +195,7 @@ header {
 }
 .draw_one {
     width: 500px;
-    height: 720px;
+    height: 600px;
     background-image: url('../images/draw1.jpg');
     background-size: cover;
     background-color: aqua;
@@ -208,7 +203,7 @@ header {
 }
 .draw_two  {
     width: 500px;
-    height: 720px;
+    height: 600px;
     background-image: url('../images/draw2.jpg');
     background-size: cover;
     background-color: aqua;
@@ -216,13 +211,120 @@ header {
 }
 .draw_three  {
     width: 500px;
-    height: 720px;
+    height: 600px;
     background-image: url('../images/draw3.jpg');
     background-size: cover;
     background-color: aqua;
     margin-left: 15px;
 }
+.head_tree {
+    margin-bottom: 100px;
+    font-family: 'josefin_sansregular';
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.for_more {
+    margin-top: 50px;
+    font-family: 'josefin_sanssemibold';
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+/*5TH SECTION*/
+.paintings {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.paint_one {
+    width: 500px;
+    height: 600px;
+    background-image: url('../images/paint1.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+.paint_two  {
+    width: 500px;
+    height: 600px;
+    background-image: url('../images/paint2.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+.paint_three  {
+    width: 500px;
+    height: 600px;
+    background-image: url('../images/paint3.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+.paint_four {
+    width: 500px;
+    height: 600px;
+    background-image: url('../images/paint4.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+.paint_five  {
+    width: 500px;
+    height: 600px;
+    background-image: url('../images/paint5.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+.paint_six  {
+    width: 500px;
+    height: 600px;
+    background-image: url('../images/paint6.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+/*6TH SECTION*/
 
+.sketch_one {
+    width: 500px;
+    height: 600px;
+    background-image: url('../images/s1.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+.sketch_two  {
+    width: 500px;
+    height: 600px;
+    background-image: url('../images/s2.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+.sketch_three  {
+    width: 500px;
+    height: 600px;
+    background-image: url('../images/s3.jpg');
+    background-size: cover;
+    background-color: aqua;
+    margin-left: 15px;
+}
+/*7TH SECTION*/
+.contact {
+    
+}
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
 
 @media (min-width: 460px) and (max-width: 1024px) {
     header {
